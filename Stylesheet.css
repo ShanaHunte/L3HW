@@ -1,0 +1,43 @@
+body {
+    background-color: pink;
+}
+
+h1 {
+    color: darkblue;
+    margin-left: 0px;
+}
+h1 {
+    -webkit-column-span: all; /* Chrome, Safari, Opera */
+    column-span: all;
+}
+h2 {
+	color: green;
+	margin-left: 0px;
+}
+h3 {
+	color: purple;
+	margin-left: 0px;
+}
+div {
+    -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+}
+
+
+.abs { position: fixed; }
+
+.fixed {
+position: fixed;
+top: 30px !important;}
+
+#sidebar {
+top: 150px;
+left: 0;
+height: 100px;
+width: 220px;
+background-color: #ccc;}
+
+.wrapper {
+height: 60px;
+padding: 20px;}
